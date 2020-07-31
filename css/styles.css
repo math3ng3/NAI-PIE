@@ -1,0 +1,215 @@
+.container-fluids{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    opacity: .5;  
+}
+.bg{
+    background-color: black;
+}
+.go{
+    font-size: 1.5em;
+}
+.now{
+    font-size: 1.5em;
+}
+.pizza img{
+    width: 20%;
+    animation: bounce  5s infinite alternate;
+}
+.pizza img{
+    animation: swim 2s infinite alternate;
+}
+@keyframes swim{
+    from{
+        transform: translate3d(50px, 20px, -10px);
+    }
+    to{
+        transform: translate3d(0px, 0px, 20px)
+    }
+}
+.about{
+    margin-top: 26%;
+    width: 100%;
+}
+
+.about-row{
+    width: 100%;
+}
+.about img{
+    width: 100%;
+}
+.about-text{
+    margin-top: 2%;
+}
+.mid-button a, .try-now a, .checkout-btn a, .timer-img a{
+    color: white;
+    text-decoration: none;
+}
+
+.mid-button a:hover, .try-now a:hover, .checkout-btn a:hover, .timer-img a:hover{
+     color:white; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+@media screen and (min-width: 300px) and (max-width: 400px){
+    .learn-more{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 500px){
+    .container-fluids{
+        background-image: url('../images/pizzabg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;  
+        height: 20%;
+        opacity: .5;  
+    }
+    .olives{
+        width: 100%;
+        margin-top: 0%;
+    }
+    .olives img{
+        width: 18%;
+    }
+    .pepperoni img{
+        margin-left: 30%;
+        width: 11%;
+    }
+    .title img{
+        width: 20%;
+        
+    }
+    .cut img{
+        width: 7%;
+        margin-top: 0%;
+    }
+    /* .btn-danger{
+        margin-top: 0%;
+        font-size: 2em;
+    } */
+    .about{
+        margin-top: 11%;
+    }
+    .about img{
+        width: 100%;
+    }
+    .about-text{
+        margin-top: 10%;
+    }
+}
+.container{
+    color: white;    
+    margin-top: 35%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.title img{
+    width: 40%;
+    
+}
+.order-yours{
+    color: black;
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.section-title{
+    width: 100%;
+    font-size: 1.7em;
+    background-color: #fb4040;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    
+}
+
+.pizza-img img{
+    width: 50%;
+    max-width: 100%;
+    margin-left: 25%;
+}
+.size-radios{
+    margin-top: 3%;
+}
+
+
+.in-text{
+    color: palevioletred;
+}
+.size-radios{
+    color: palevioletred;
+}
+
+.size-radio input[type="radio"], .crust-radio input[type="radio"], .toppings input[type="checkbox"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  }
+  .size-radio label, .crust-radio label, .topping-checkbox label {
+      color: white;
+    display: inline-block;
+    background-color: grey;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+.size-radio label:hover, .crust-radio label:hover, .topping-checkbox label:hover {
+    background-color: #218838;
+  }
+.size-radio input[type="radio"]:checked + label, .crust-radio input[type="radio"]:checked + label, .topping-checkbox input[type="checkbox"]:checked +label {
+    background-color: #28a745;
+    border-color: #1e7e34;
+}
+.total-div{
+    color: grey;
+    font-size: 1.3em;
+}
+
+.two-div, .three-div, .total-div, .stuffed-img, .glutten-img, .alert-danger, .jumbotron, .delivery, .time{
+    display: none;
+}
+.sendOne, .sendTwo, .sendThree{
+    margin-left: 35%;
+    
+}
+.jumbotron{
+    color: black;
+    font-size: 1.3em;
+    text-align: center;
+}
+.time img{
+    width: 70%;
+}
+@media only screen and (min-width: 500px){
+    .container{
+        color: white;    
+        margin-top: 15%;
+    }
+    .pizza-img img{
+        margin-left: 40%;
+        width: 20%;
+    }
+    .size-radios, .crust-radios{
+        margin-top: 2%;
+        margin-left: 12%;
+    }
+    .title img{
+        width: 20%;
+        
+    }
+    .toppings{
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+    .sendOne, .sendTwo{
+        margin-left: 45%;
+        /* width: 5%; */
+    }
+    .time img{
+        width: 30%;
+    }
+
+    
+}
