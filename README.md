@@ -1,5 +1,5 @@
 # NAI-PIE
-#### This site allows users to customize and order pizzas of their likings.
+#### This site allows users to customize and order pizzas of their liking.
 #### By **Andrew Mathenge**
 ## Description
 Simply put, a user comes in, customizes the pizzas of their liking and orders it, providing a delivery location for it to be delivered.
