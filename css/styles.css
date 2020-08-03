@@ -6,8 +6,13 @@ body {
     background-repeat: no-repeat;  
     opacity: .5;  
 }
-.nai {
- 
+.container-fluids .transparent{
+    margin-left: 257px;
+
+   }
+.container-fluids .transparent img{
+ height: 500px;
+ width: 479px;
 }
 .bg{
     background-color: black;
@@ -21,7 +26,6 @@ body {
 .pizza img{
     width: 20%;
     animation: bounce  5s infinite alternate;
-    margin-top: 120px;
 }
 .pizza img{
     animation: swim 2s infinite alternate;
