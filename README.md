@@ -5,8 +5,10 @@
 Simply put, a user comes in, customizes the pizzas of their liking and orders it, providing a delivery location for it to be delivered.
 
 ## Setup/Installation Requirements
-* `git clone`
-* `cd /pizza`
+* git clone https://github.com/math3ng3/NAI-PIE.git on your terminal.
+* Navigate to the Delani folder.
+* Open the folder in your editor.
+
 
 ## Known Bugs
 As is, the project contains no known bugs.
