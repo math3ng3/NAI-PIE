@@ -7,8 +7,7 @@ body {
     opacity: .5;  
 }
 .container-fluids .transparent{
-    margin-left: 257px;
-
+    margin-left: 655px;
    }
 .container-fluids .transparent img{
  height: 500px;
@@ -24,7 +23,7 @@ body {
     font-size: 1.5em;
 }
 .pizza img{
-    width: 20%;
+    width: 10%;
     animation: bounce  5s infinite alternate;
 }
 .pizza img{
